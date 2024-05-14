@@ -418,5 +418,5 @@ function Invoke-BH
 	$BindingFlags = [Reflection.BindingFlags] "Public,Static"
 	$a = @()
 	$Assembly.GetType("Co" + "s" + "tur" + "a" + ".Ass" + "embly" + "Loa" + "der", $false).GetMethod("Attach", $BindingFlags).Invoke($Null, @())
-	$Assembly.GetType("Sh" + "arp" + "h" + "oun" + "d" + ".Program").GetMethod("Invok" + "eSh" + "ar" + "H" + "ou" + "nd").Invoke($Null, @(,$passed))
+	$Assembly.GetType("Sh" + "arp" + "h" + "oun" + "d" + ".Program").GetMethod("Invok" + "eSh" + "ar" + "pH" + "ou" + "nd").Invoke($Null, @(,$passed))
 }

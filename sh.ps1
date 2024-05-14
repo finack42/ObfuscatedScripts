@@ -1,4 +1,4 @@
-function Invoke-BloodHound
+function Invoke-BH
 {
     
 

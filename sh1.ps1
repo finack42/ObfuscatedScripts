@@ -178,5 +178,5 @@ function Invoke-BH
 	$BindingFlags = [Reflection.BindingFlags] "Public,Static"
 	$a = @()
 	$Assembly.GetType("Costura.AssemblyLoader", $false).GetMethod("Attach", $BindingFlags).Invoke($Null, @())
-	$Assembly.GetType("Sharphound.Program").GetMethod("InvokeSharpHound").Invoke($Null, @(,$passed))
+	$Assembly.GetType("SH.Program").GetMethod("InvokeSH").Invoke($Null, @(,$passed))
 }
